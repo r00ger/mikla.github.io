@@ -3,28 +3,19 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "Kiko Plus"
+name:               "Миклушов"
 
 author:
-  facebook:         your-id
-  youtubeUser:      your-id
-  youtubeChannel:   your-id
-  twitter:          your-id
-  github:           your-id
-  stackoverflow:    your-id
-  quora:            your-id
-  linkedin:         your-id
-  pinterest:        your-id
-  googlePlus:       your-id
-  instagram:        your-id
-  reddit:           your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
+  facebook:         artsiom.miklushou
+  twitter:          miklushou
+  github:           mikla
+  stackoverflow:    1057690
+  linkedin:         artsiom-miklushou
+  email:            mikla.op@gmail.com
 
 copyright:
   year:             2017
-  name:             Kiko
+  name:             Миклушов
 
 # Google-analytics
 google-analytics:
@@ -32,13 +23,14 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "kiko-plus"
+  id:               "miklushou"
 
 # URL
-url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
-# url:                "http://localhost:4000" # use this url when you develop
-baseurl:            "/Kiko-plus" # the subpath of your site, e.g. /blog
+url:                "https://mikla.github.io" # the base hostname & protocol for your site
 
+#url:                "http://localhost:4000" # use this url when you develop
+
+#baseurl:            "/blog" # the subpath of your site, e.g. /blog
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:           Asia/Seoul
@@ -55,14 +47,12 @@ kramdown:
 
 # Navigation
 nav:
-  - name:           "About"
-    url:            "/about"
-  - name:           "Archive"
-    url:            "/archive"
-  - name:           "Tags"
-    url:            "/tags"
-  - name:           "Github"
-    url:            "https://github.com/AWEEKJ/Kiko-plus"
+#  - name:           "About"
+#    url:            "/about"
+#  - name:           "Archive"
+#    url:            "/archive"
+#  - name:           "Tags"
+#    url:            "/tags"
 
 # Sass
 sass:
@@ -85,7 +75,7 @@ defaults:
       layout:       "post"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-admin
